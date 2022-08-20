@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    chart: lab-wesite-chart
+    chart: lab-website-chart
     repoURL:  https://github.com/John-Roger-Org/helm-chart-argocd.git
     targetRevision: 1.16.0
     helm:
