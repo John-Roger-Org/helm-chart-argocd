@@ -6,9 +6,12 @@ metadata:
 spec:
   project: default
   source:
+    chart: lab-wesite-chart
     repoURL:  https://github.com/John-Roger-Org/helm-chart-argocd.git
-    targetRevision: HEAD
-    path: templates
+    targetRevision: 1.16.0
+    helm:
+      releaseName: lab-wesite-chart
+    
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx-server
